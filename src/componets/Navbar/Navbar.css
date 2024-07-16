@@ -6,6 +6,15 @@
   padding: 0px 0;
   text-align: center;
 }
+a{
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+.logo img{
+  height: 35px;
+  padding: 0px 0.02px 0px 0.02px;
+}
 
 .Navbar .container {
   max-width: 1200px;
@@ -15,21 +24,17 @@
 
 .Navbar .row {
   display: flex;
+  padding: 12px;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
-.logo-div{
-   display: flex;
-   justify-content: center;
-   align-items: center; 
+.logo-div {
+   height: 100%;
 }
-.logo-div img{
-   height: 3rem;
-}
+
 .Navbar .col-md-4 {
-  flex-basis: 33.33%;
-  margin: 20px;
+  margin: 0px;
 }
 
 
@@ -44,13 +49,8 @@
   width: max-content;
 }
 
-.Navbar ul.nav a {
-  color: #fff;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-#products{
-  color: red;
+#news{
+  color: #E50007;
 }
 
 .Navbar ul.nav a:hover {
@@ -85,19 +85,6 @@
   padding: 4px 10px 2px 10px;
   position: relative;
 }
-#asus::after{
-  content: "";
-  position: absolute;
-  top: 0%;
-  right: -15%;
-  height: 200%;
-  width: 2px;
-  background-color: #ef0f0f;
-  transform: translate(-50%, -25%);
-}
-#asus img{
-  height: 1rem;
-}
 
 .Navbar .social-media a:hover {
   color: #ccc;
@@ -112,19 +99,7 @@
 /* Responsive styles */
 
 @media (max-width: 768px) {
-  .Navbar .col-md-4 {
-    flex-basis: 50%;
-  }
 }
 
 @media (max-width: 480px) {
-  .Navbar .col-md-4 {
-    flex-basis: 100%;
-  }
-  .Navbar ul.nav {
-    flex-wrap: nowrap;
-  }
-  .Navbar ul.nav li {
-    margin-right: 10px;
-  }
 }

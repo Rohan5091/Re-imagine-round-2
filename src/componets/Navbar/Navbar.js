@@ -1,11 +1,9 @@
 import React from 'react';
 import './Navbar.css';
 import logo from "../../Images/logo.png";
-import asus from "../../Images/Asus.png";
 import user from "../../Images/User.png";
 import megnify from "../../Images/Megnify.png";
 import cart from "../../Images/Cart.png";
-import image2 from "../../Images/image 2.png";
 
 
 const Navbar = () => {
@@ -22,44 +20,29 @@ const Navbar = () => {
           <div className="col-md-4">
             <ul className="nav">
               <li className="nav-item">
-                <a href="/" className="nav-link " id='products'>
-                  Products
+                <a href="/" className="nav-link ">
+                  PRODUCTS
                 </a>
               </li>
               <li className="nav-item">
                 <a href="/" className="nav-link">
-                  Innovation
+                  AIOT SOLUTION
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href="/" className="nav-link" id='news'>
+                  WHAT'S NEW
                 </a>
               </li>
               <li className="nav-item">
                 <a href="/" className="nav-link">
-                  Download
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="/" className="nav-link">
-                  Community
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="/" className="nav-link">
-                  Service
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="/" className="nav-link">
-                  Where to Buy
+                  SUPPORT
                 </a>
               </li>
             </ul>
           </div>
           <div className="col-md-4">
             <ul className="social-media">
-              <li id='asus'>
-                <a href="/" className="social-link">
-                  <img src={asus} alt="asus" />
-                </a>
-              </li>
               <li>
                 <a href="/" className="social-link">
                    <img src={megnify} alt="megnify" />
@@ -79,11 +62,6 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      
-
-    </div>
-    <div className='image2'>
-       <img src={image2} alt="asus" />
     </div>
     </>
   );
