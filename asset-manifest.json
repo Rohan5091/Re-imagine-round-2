@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Re-imagine-round-2/static/css/main.ac47cb76.css",
+    "main.js": "/Re-imagine-round-2/static/js/main.815694f2.js",
+    "static/js/453.ed3810f9.chunk.js": "/Re-imagine-round-2/static/js/453.ed3810f9.chunk.js",
+    "static/media/image3.png": "/Re-imagine-round-2/static/media/image3.bb747a3136b9aeedf23d.png",
+    "static/media/image4.png": "/Re-imagine-round-2/static/media/image4.7bb4dc4b3c66ceea8118.png",
+    "static/media/image1.png": "/Re-imagine-round-2/static/media/image1.2b0f4db19567ec211bbe.png",
+    "static/media/image2.png": "/Re-imagine-round-2/static/media/image2.765f7273996b84efaf82.png",
+    "index.html": "/Re-imagine-round-2/index.html",
+    "main.ac47cb76.css.map": "/Re-imagine-round-2/static/css/main.ac47cb76.css.map",
+    "main.815694f2.js.map": "/Re-imagine-round-2/static/js/main.815694f2.js.map",
+    "453.ed3810f9.chunk.js.map": "/Re-imagine-round-2/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac47cb76.css",
+    "static/js/main.815694f2.js"
+  ]
+}
