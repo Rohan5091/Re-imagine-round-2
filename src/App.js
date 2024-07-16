@@ -4,9 +4,9 @@ import Navbar from './componets/Navbar/Navbar.js';
 
 function App() {
   return (
-    <>
+    <div className='app'>
       <Navbar/>
-    </>
+    </div>
   )
 }
 

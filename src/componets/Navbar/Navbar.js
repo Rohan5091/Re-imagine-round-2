@@ -5,9 +5,12 @@ import asus from "../../Images/Asus.png";
 import user from "../../Images/User.png";
 import megnify from "../../Images/Megnify.png";
 import cart from "../../Images/Cart.png";
+import image2 from "../../Images/image 2.png";
+
 
 const Navbar = () => {
   return (
+    <>
     <div className="Navbar">
       <div className="container">
         <div className="row">
@@ -76,7 +79,13 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+      
+
     </div>
+    <div className='image2'>
+       <img src={image2} alt="asus" />
+    </div>
+    </>
   );
 };
 

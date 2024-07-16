@@ -102,7 +102,12 @@
 .Navbar .social-media a:hover {
   color: #ccc;
 }
-
+.image2{
+  height: 100vw;
+}
+.image2 img{
+  width: 100%;
+}
 
 /* Responsive styles */
 
